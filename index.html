@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header__navbar">
+          <a href="#" class="header__logo">#САЙТ-ПОРТФОЛИО</a>
+          <ul class="header__menu">
+            <li><a href="#about" class="header__link">Обо мне</a></li>
+            <li><a href="#projects" class="header__link">Навыки</a></li>
+            <li><a href="#contacts" class="header__link">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero__title">Привет, я Демьян</h1>
+        <p class="hero__description">Я создаю сайты и веб-приложения</p>
+        <a href="#contacts" class="btn hero__btn">Написать мне</a>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="about__title">Обо мне</h2>
+        <p class="about__description">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+          quibusdam aperiam alias doloribus vero quis maiores officiis, veniam
+          rem esse explicabo repudiandae? Reprehenderit inventore vero dolorum
+          incidunt quo amet necessitatibus?
+        </p>
+      </div>
+    </section>
+    <section class="skills">
+      <div class="container">
+        <h2>Мои навыки</h2>
+        <div class="skills__list">
+          <div class="skills__card">
+            <div class="skills__photo">
+              <img
+                src="https://i.pinimg.com/originals/7a/da/5d/7ada5ddd0d9b2e247a7a41382d4e7a05.png"
+                alt="HTML"
+              />
+            </div>
+            <h3 class="skills__title">HTML</h3>
+            <p class="skills__description">Я владею базовыми навыками HTML</p>
+          </div>
+          <div class="skills__card">
+            <div class="skills__photo">
+              <img
+                src="https://i.pinimg.com/originals/79/09/89/7909897ceea2691e5a4942766c678ff3.png"
+                alt="CSS"
+              />
+            </div>
+            <h3 class="skills__title">CSS</h3>
+            <p class="skills__description">Я владею базовыми навыками CSS</p>
+          </div>
+          <div class="skills__card">
+            <div class="skills__photo">
+              <img
+                src="https://camo.githubusercontent.com/65ef2a5e979b229ea355d6ac2b9b7f8fb0d7e66e5516507971a8a322b5056f09/68747470733a2f2f63646e322e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f64657369676e65722d736b696c6c732f3132382f636f64652d70726f6772616d6d696e672d6a6176617363726970742d736f6674776172652d646576656c6f702d636f6d6d616e642d6c616e67756167652d343039362e706e67"
+                alt="JS"
+              />
+            </div>
+            <h3 class="skills__title">JavaScript</h3>
+            <p class="skills__description">
+              Я владею базовыми навыками JavaScript
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contacts" class="contacts">
+      <div class="container">
+        <h2 class="contacts__title">Контакты</h2>
+        <form class="contacts__form">
+          <label for="name">Имя</label>
+          <input type="text" id="name" placeholder="Введите имя..." />
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Введите email..." />
+          <label for="message">Сообщение</label>
+          <textarea id="message" placeholder="Введите сообщение"></textarea>
+          <button class="btn contacts__btn">Отправить</button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <p>2025 Демьян. Ваши права защищены</p>
+      </div>
+    </footer>
+  </body>
+</html>
